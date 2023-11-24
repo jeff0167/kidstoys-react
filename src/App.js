@@ -13,7 +13,6 @@ function App() {
   const [showAlert, setAlert] = useState(false);
   const error = useStore((state) => state.error); // Get error from store
 
-
   useEffect(() => {
     getProducts();
     console.log(products)
